@@ -5,7 +5,6 @@ import javax.validation.constraints.Size;
 
 public class PersonForm {
 
-    @NotBlank(message = "ID CANNOT BE BLANK")
     private int id;
 
     @NotBlank(message = "NICKNAME CANNOT BE BLANK")
